@@ -6,7 +6,7 @@ document.getElementById("lgBtn").addEventListener("click", function () {
   let showNameError = document.getElementById("fill-up-name");
   let showPassError = document.getElementById("fill-up-pass");
   if (userName == "admin" && userPassword == "password") {
-    window.location.href = "banking.html";
+    window.location.href = "html/banking.html";
   }
   if (userName != "admin") {
     showNameError.removeAttribute("hidden");
