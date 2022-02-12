@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="w-3/4 mx-auto">
+    <!-- balance and transgression -->
+    <header>
+      <h1 class="mt-10 text-center text-7xl font-bold">
+        let's get some <span class="text-cyan-500">Money</span>
+      </h1>
+    </header>
+    <section class="mt-8">
+      <div class="grid grid-cols-3 gap-4 text-white">
+        <div class="bg-cyan-500 p-8 rounded">
+          <h3 class="text-3xl">Deposit</h3>
+          <h4 class="text-4xl">$ <span id="depositBalance">00</span></h4>
+        </div>
+        <div class="bg-lime-500 p-8 rounded">
+          <h3 class="text-3xl">Withdraw</h3>
+          <h4 class="text-4xl">$ <span id="withdrawBalance">00</span></h4>
+        </div>
+        <div class="bg-blue-400 p-8 rounded">
+          <h3 class="text-3xl">Balance</h3>
+          <h4 class="text-4xl">$ <span id="incriseBalance">1500</span></h4>
+        </div>
+      </div>
+    </section>
+    <!-- deposit and withdraw -->
+    <section>
+      <div class="grid grid-cols-2 mt-8 gap-4">
+        <div class="bg-red-100 p-8">
+          <h3 class="text-3xl">Please Deposit</h3>
+          <div>
+            <form action="">
+              <input
+                type="text"
+                placeholder="$ deposit your amount"
+                id="depositValue"
+                class="border border-gray-600 rounded mb-4 w-3/4 mt-2 px-2"
+              />
+            </form>
+            <button
+              id="depositBtn"
+              class="rounded text-white px-4 py-2 bg-orange-500 mt-2"
+            >
+              Deposit
+            </button>
+          </div>
+        </div>
+        <div class="bg-green-100 p-8">
+          <h3 class="text-3xl">Please Withdraw</h3>
+          <div>
+            <form action="">
+              <input
+                type="text"
+                placeholder="$ amount you want to Withdraw"
+                id="withdraw"
+                class="border border-gray-600 rounded mb-4 w-3/4 mt-2 px-2"
+              />
+            </form>
+            <button
+              id="withdrawBtn"
+              class="rounded text-white px-4 py-2 bg-orange-500 mt-2"
+            >
+              Withdraw
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/money.js"></script>
+  </body>
+</html>

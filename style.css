@@ -1,0 +1,87 @@
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  padding: 0;
+  margin: 0;
+}
+.input-Box {
+  margin-top: 50%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.main-div {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+.picture {
+  overflow: hidden;
+}
+.picture img {
+  /* background-image: url(img/bg.jpg); */
+
+  height: 1000px;
+}
+#lgBtn {
+  margin-top: 10px;
+  background-color: #2982be;
+  padding: 7px 25px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 2px 5px 6px 1px #ccc;
+  transition: ease-in-out 0.3s;
+}
+#lgBtn:hover {
+  background-color: rgb(119, 92, 87);
+  cursor: pointer;
+}
+#logo {
+  width: 10%;
+  margin: 5%;
+}
+.nameInput {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #2982be;
+  width: 350px;
+}
+#fill-up-name {
+  margin-top: -5px;
+  color: red;
+  font-size: 12px;
+}
+#fill-up-pass {
+  color: red;
+  font-size: 12px;
+}
+#setPosition {
+  position: relative;
+}
+.welcomeBank {
+  position: absolute;
+  margin: 50% 0 0 100px;
+  color: white;
+  font-weight: 400;
+}
+#dreamBank {
+  font-size: 50px;
+  background-color: #2881bd85;
+  padding: 0 10px;
+  border-radius: 20px;
+}
+#dream {
+  font-weight: 900;
+}
+#myImg {
+  position: absolute;
+}
+#loginAccess {
+  margin-top: 60%;
+  background-color: #2881bd85;
+  padding: 0 10px;
+  border-radius: 19px;
+}
